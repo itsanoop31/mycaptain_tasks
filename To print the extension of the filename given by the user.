@@ -1,0 +1,6 @@
+fn=input("Input the filename:")
+#asking for the filename from the user
+f= fn.split(".")
+#Splitting the extension of the file after the dot
+print("The extension of the filename is: ", f[-1])
+#printing the extension of the filename given by the user

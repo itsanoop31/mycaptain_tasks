@@ -1,1 +1,8 @@
-
+pi=3.14 
+#storing the value of pi
+r=int(input("Input the radius of the circle(r)=")) 
+#asking the user of the code to enter the value of radius of his choice
+Ans = pi*r*r 
+#calculating the area of the circle with two variables
+print("The area of the circle with radius", r, "is=",Ans)
+#printing the final answer

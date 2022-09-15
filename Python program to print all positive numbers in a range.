@@ -1,0 +1,8 @@
+mylist = []
+n = int(input("Enter the length of the list: "))
+for i in range(0,n):
+    i = int(input("Enter the number: "))
+    mylist.append(i)
+print(mylist)
+positive_numbers = filter(lambda i: i>0, mylist)
+print(list(positive_numbers))
